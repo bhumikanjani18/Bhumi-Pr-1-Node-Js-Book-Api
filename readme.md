@@ -65,19 +65,8 @@ MONGO_URI=mongodb://localhost:27017/bookstore
 
 ---
 
-## 🔐 Auth Flow
 
-User **must register first**, then login to get a JWT token. That token is required for all book routes.
 
-```
-POST /api/users/register   →   Create account
-POST /api/users/login      →   Get JWT token
-```
-
-Use the token in the `Authorization` header:
-
-```
-Authorization: Bearer <token>
 ```
 
 ---
