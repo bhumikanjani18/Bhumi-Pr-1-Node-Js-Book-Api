@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^2.3.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "mongoose": "^9.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^25.9.3",
+    "nodemon": "^3.1.14"
+  },
+  "name": "pr-1-book-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
