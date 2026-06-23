@@ -42,31 +42,17 @@ https://drive.google.com/file/d/17ovvq7XNvAXQHqmqblXVym4Z6KD8Pczs/view?usp=drive
 
 ```bash
 # 1. Clone the repo
-git clone <your-repo-url>
-cd bookstore-api
+git clone https://github.com/bhumikanjani18/Bhumi-Pr-1-Node-Js-Book-Api.git
+cd Bhumi-Pr-1-Node-Js-Book-Api
 
 # 2. Install dependencies
 npm install
 
 # 3. Create .env file
 cp .env.example .env
-# Fill in your values (see below)
 
 # 4. Start the server
 npm start
-```
-
-### `.env` Variables
-
-```env
-PORT=3000
-MONGO_URI=mongodb://localhost:27017/bookstore
-```
-
----
-
-
-
 ```
 
 ---
